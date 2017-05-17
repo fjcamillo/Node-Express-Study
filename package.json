@@ -1,5 +1,10 @@
 {
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "start": "node ./project_files/index.js",
+    "dev": "nodemon ./project_files/index.js"
   }
 }
